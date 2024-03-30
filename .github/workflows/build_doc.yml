@@ -26,7 +26,6 @@ jobs:
         sudo apt-get -qy install texlive-latex-extra texlive-pstricks texlive-science
         # for lint
         sudo apt-get -qy install chktex
-        #
 
     - name: make
       run: |
